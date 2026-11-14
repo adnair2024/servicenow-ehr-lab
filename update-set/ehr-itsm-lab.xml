@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-14 01:11:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>EHR access request (catalog item, variables, UI policy, client script, approval flow), EHR incident routing, SLA and outage business rule.</description>
+<inserted/>
+<name>EHR ITSM Lab</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e22d642183e813100fa7c765eeaad3ca</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>2f0fec6583e813100fa7c765eeaad3c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_d958e46983a813100fa7c765eeaad34e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:b415eced836813100fa7c765eeaad397=offboarding^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;published_ref/&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Offboarding: swap EHR role for last day&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:42:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d958e46983a813100fa7c765eeaad34e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Offboarding: swap EHR role for last day&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_d958e46983a813100fa7c765eeaad34e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:42:42&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>600022046</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>230fec6583e813100fa7c765eeaad3cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d781af5a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Offboarding: swap EHR role for last day</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>a0882c69dba81310a3b3530fe7d9b138</update_guid>
+<update_guid_history>a0882c69dba81310a3b3530fe7d9b138:600022046</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_7308ac2983a813100fa7c765eeaad355</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;last_day&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;450&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Last day of work&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;7308ac2983a813100fa7c765eeaad355&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Last day of work&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_7308ac2983a813100fa7c765eeaad355&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:41:33&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;9&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7308ac2983a813100fa7c765eeaad355"/&gt;&lt;fx_price action="delete_multiple" query="id=7308ac2983a813100fa7c765eeaad355"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;7308ac2983a813100fa7c765eeaad355&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;2f38246983a813100fa7c765eeaad376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:41:33&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;7308ac2983a813100fa7c765eeaad355&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;a738246983a813100fa7c765eeaad375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:41:33&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1185769736</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>270fec6583e813100fa7c765eeaad3cd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d780a2290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Last day of work</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>6f38246908a81310cad864bdb02a8f7b</update_guid>
+<update_guid_history>6f38246908a81310cad864bdb02a8f7b:1185769736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_0115202183a813100fa7c765eeaad308</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Facility">0d15eced836813100fa7c765eeaad3dc</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:44</sys_created_on><sys_id>0115202183a813100fa7c765eeaad308</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Metairie</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_0115202183a813100fa7c765eeaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:28:44</sys_updated_on><text>Metairie</text><value>metairie</value></question_choice><fx_price action="delete_multiple" query="id=0115202183a813100fa7c765eeaad308"/></record_update>]]></payload>
+<payload_hash>123892292</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>2b0fec6583e813100fa7c765eeaad3cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774e42f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Metairie</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>7b4520610da81310a31b03f389b4e04e</update_guid>
+<update_guid_history>7b4520610da81310a31b03f389b4e04e:123892292,01152021b2a81310f486b9e41f470c11:1587059606</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_8d15eced836813100fa7c765eeaad3ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Facility">0d15eced836813100fa7c765eeaad3dc</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:44</sys_created_on><sys_id>8d15eced836813100fa7c765eeaad3ee</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gray</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_8d15eced836813100fa7c765eeaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:28:44</sys_updated_on><text>Gray</text><value>gray</value></question_choice><fx_price action="delete_multiple" query="id=8d15eced836813100fa7c765eeaad3ee"/></record_update>]]></payload>
+<payload_hash>896793422</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>2f0fec6583e813100fa7c765eeaad3d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774e3460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Gray</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>ff45206183a81310d2ddd9f19c0c243b</update_guid>
+<update_guid_history>ff45206183a81310d2ddd9f19c0c243b:896793422,4515202195a813105f2cd9460c6da604:1966927339</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_d915202183a813100fa7c765eeaad332</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="EHR role">8515202183a813100fa7c765eeaad314</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:44</sys_created_on><sys_id>d915202183a813100fa7c765eeaad332</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Provider</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_d915202183a813100fa7c765eeaad332</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:44</sys_updated_on><text>Provider</text><value>provider</value></question_choice><fx_price action="delete_multiple" query="id=d915202183a813100fa7c765eeaad332"/></record_update>]]></payload>
+<payload_hash>-2027682574</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>330fec6583e813100fa7c765eeaad3d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773fc480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Provider</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>d91520214da81310931af1f8ab6f333b</update_guid>
+<update_guid_history>d91520214da81310931af1f8ab6f333b:-2027682574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_6145ec2183a813100fa7c765eeaad344</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="incident">category=ehr<item display_value="EHR" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="ehr"/></condition><description/><group display_value="EHR Support" name="EHR Support">401560ad836813100fa7c765eeaad3b2</group><match_conditions>ALL</match_conditions><name>Route EHR incidents to EHR Support</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:28:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6145ec2183a813100fa7c765eeaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Route EHR incidents to EHR Support</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_6145ec2183a813100fa7c765eeaad344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:28:35</sys_updated_on><table>incident</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>841730968</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>370fec6583e813100fa7c765eeaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774c0ca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table>incident</table>
+<target_name>Route EHR incidents to EHR Support</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>e145ec2135a81310337fe0eb0ae49449</update_guid>
+<update_guid_history>e145ec2135a81310337fe0eb0ae49449:841730968</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_grmember_9c15eced836813100fa7c765eeaad313</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_grmember"><sys_user_grmember action="INSERT_OR_UPDATE"><group display_value="EHR Support" name="EHR Support">401560ad836813100fa7c765eeaad3b2</group><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:40</sys_created_on><sys_id>9c15eced836813100fa7c765eeaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:40</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user></sys_user_grmember></record_update>]]></payload>
+<payload_hash>530833600</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>3b0fec6583e813100fa7c765eeaad3d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d7977b1e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table/>
+<target_name>System Administrator.EHR Support</target_name>
+<type>Group Member</type>
+<update_domain>global</update_domain>
+<update_guid>19fd2025a7e813105dbeb63b2ed67f66</update_guid>
+<update_guid_history>19fd2025a7e813105dbeb63b2ed67f66:530833600</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_1d15202183a813100fa7c765eeaad34b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="EHR role">8515202183a813100fa7c765eeaad314</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:45</sys_created_on><sys_id>1d15202183a813100fa7c765eeaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Front Desk</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_1d15202183a813100fa7c765eeaad34b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:45</sys_updated_on><text>Front Desk</text><value>front_desk</value></question_choice><fx_price action="delete_multiple" query="id=1d15202183a813100fa7c765eeaad34b"/></record_update>]]></payload>
+<payload_hash>2046947952</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>630fec6583e813100fa7c765eeaad3d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773fdcb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Front Desk</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>1d152021c2a81310878e2d9839df1154</update_guid>
+<update_guid_history>1d152021c2a81310878e2d9839df1154:2046947952</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_680b64ad83a813100fa7c765eeaad316</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;cat_variable&gt;IO:7308ac2983a813100fa7c765eeaad355&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Last day cannot have passed&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+   g_form.hideFieldMsg('last_day', true);
+
+   // Fix date
+   var parts = newValue.split('-');
+   var picked = new Date(parts[0], parts[1] - 1, parts[2]);
+
+   // allow picking today
+   var today = new Date();
+   today.setHours(0, 0, 0, 0);
+
+   if (picked &lt; today) {
+	g_form.clearValue('last_day');
+	g_form.showFieldMsg('last_day', "Last day can't be in the past.", 'error');
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:58:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;680b64ad83a813100fa7c765eeaad316&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Last day cannot have passed&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_680b64ad83a813100fa7c765eeaad316&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:58:11&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1567839441</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>670fec6583e813100fa7c765eeaad3c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d78fdbad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Last day cannot have passed</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>130c60219be81310abd6eb9ef3ce1beb</update_guid>
+<update_guid_history>130c60219be81310abd6eb9ef3ce1beb:-1567839441</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_9115202183a813100fa7c765eeaad358</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref/><question display_value="EHR role">8515202183a813100fa7c765eeaad314</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:45</sys_created_on><sys_id>9115202183a813100fa7c765eeaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Billing</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_9115202183a813100fa7c765eeaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:45</sys_updated_on><text>Billing</text><value>billing</value></question_choice><fx_price action="delete_multiple" query="id=9115202183a813100fa7c765eeaad358"/></record_update>]]></payload>
+<payload_hash>1859750471</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>670fec6583e813100fa7c765eeaad3d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773fe9f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Billing</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>9115202170a81310b214a161283df161</update_guid>
+<update_guid_history>9115202170a81310b214a161283df161:1859750471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>contract_sla_2145ec2183a813100fa7c765eeaad34d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla"><contract_sla action="INSERT_OR_UPDATE"><active>true</active><adv_condition_type>none</adv_condition_type><cancel_condition table="incident">priority&gt;2<item display_value="2 - High" endquery="false" field="priority" goto="false" newquery="false" operator="&gt;" or="false" value="2"/></cancel_condition><collection>incident</collection><condition_class/><duration>1970-01-01 08:00:00</duration><duration_type/><enable_logging>false</enable_logging><flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow><name>EHR P1/P2 resolution (8 business hrs)</name><pause_condition table="incident">state=3<item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/></pause_condition><relative_duration_works_on>Task record</relative_duration_works_on><reset_action>cancel</reset_action><reset_condition/><resume_condition/><retroactive>false</retroactive><retroactive_pause>true</retroactive_pause><schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule><schedule_source>sla_definition</schedule_source><schedule_source_field/><set_start_to/><start_condition table="incident">assignment_group=401560ad836813100fa7c765eeaad3b2^priority&lt;=2<item display_table="sys_user_group" display_value="EHR Support" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="401560ad836813100fa7c765eeaad3b2"/><item display_value="2 - High" endquery="false" field="priority" goto="false" newquery="false" operator="&lt;=" or="false" value="2"/></start_condition><stop_condition table="incident">state=6^ORstate=7<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/><item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="7"/></stop_condition><sys_class_name>contract_sla</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:28:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2145ec2183a813100fa7c765eeaad34d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>EHR P1/P2 resolution (8 business hrs)</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>contract_sla_2145ec2183a813100fa7c765eeaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:29:07</sys_updated_on><target>resolution</target><timezone/><timezone_source>task.caller_id.time_zone</timezone_source><type>SLA</type><vendor/><when_to_cancel>on_condition</when_to_cancel><when_to_resume>on_condition</when_to_resume><workflow/></contract_sla><sys_translated_text action="delete_multiple" query="documentkey=2145ec2183a813100fa7c765eeaad34d"/></record_update>]]></payload>
+<payload_hash>1725820170</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>6b0fec6583e813100fa7c765eeaad3cb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d77541250000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table>incident</table>
+<target_name>EHR P1/P2 resolution (8 business hrs)</target_name>
+<type>SLA Definition</type>
+<update_domain>global</update_domain>
+<update_guid>2d6528ed036813102a333d30f984a872</update_guid>
+<update_guid_history>2d6528ed036813102a333d30f984a872:1725820170,6d45ec2162a81310dfd80b3bc2d95656:-1732266052</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_8515202183a813100fa7c765eeaad314</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;ehr_role&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;400&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;EHR role&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:44&lt;/sys_created_on&gt;&lt;sys_id&gt;8515202183a813100fa7c765eeaad314&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EHR role&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_8515202183a813100fa7c765eeaad314&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:44&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;5&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8515202183a813100fa7c765eeaad314"/&gt;&lt;fx_price action="delete_multiple" query="id=8515202183a813100fa7c765eeaad314"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;8515202183a813100fa7c765eeaad314&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:44&lt;/sys_created_on&gt;&lt;sys_id&gt;5515202183a813100fa7c765eeaad31d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:44&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;8515202183a813100fa7c765eeaad314&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:44&lt;/sys_created_on&gt;&lt;sys_id&gt;1d15202183a813100fa7c765eeaad31c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:44&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1450987315</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>6f0fec6583e813100fa7c765eeaad3cd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773fb2d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>EHR role</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>dd15202106a81310faf44ea617f46e21</update_guid>
+<update_guid_history>dd15202106a81310faf44ea617f46e21:-1450987315</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_401560ad836813100fa7c765eeaad3b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Supports the athenaPractice EHR: access requests, configuration and EHR incidents.</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</manager><name>EHR Support</name><parent/><roles/><source/><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:40</sys_created_on><sys_id>401560ad836813100fa7c765eeaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:40</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>-921565584</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>730fec6583e813100fa7c765eeaad3d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d7977aee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table/>
+<target_name>EHR Support</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>11fde4e155e81310cac7871ede2a2aa4</update_guid>
+<update_guid_history>11fde4e155e81310cac7871ede2a2aa4:-921565584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_9815eced836813100fa7c765eeaad321</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="Application and Account Access"&gt;22555319db0150104327198d1396195c&lt;/category&gt;&lt;cc_render_type&gt;system&lt;/cc_render_type&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Use this form to request EHR access for a new staff member, change an existing user&amp;#39;s role, or remove access when someone leaves. Requests are approved by EHR Support, then a fulfillment task is created for the team.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow_designer_flow&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group display_value="EHR Support" name="EHR Support"&gt;401560ad836813100fa7c765eeaad3b2&lt;/group&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;legacy&gt;false&lt;/legacy&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;EHR Access Request&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;false&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/owner&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=9815eced836813100fa7c765eeaad321&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;e0d08b13c3330100c8b837659bba8fb4&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;secondary_owners/&gt;&lt;short_description&gt;Request new EHR access, a role change, or offboarding&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:41&lt;/sys_created_on&gt;&lt;sys_id&gt;9815eced836813100fa7c765eeaad321&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;EHR Access Request&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_9815eced836813100fa7c765eeaad321&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 01:04:19&lt;/sys_updated_on&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;24&lt;/version&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9815eced836813100fa7c765eeaad321"/&gt;&lt;fx_price action="delete_multiple" query="id=9815eced836813100fa7c765eeaad321"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;9815eced836813100fa7c765eeaad321&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:41&lt;/sys_created_on&gt;&lt;sys_id&gt;e815eced836813100fa7c765eeaad348&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:41&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1448423061</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>7b0fec6583e813100fa7c765eeaad3d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d7977b610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>EHR Access Request</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>55fd2025afe813102c08a93a86e81a6c</update_guid>
+<update_guid_history>55fd2025afe813102c08a93a86e81a6c:-1448423061,457de8a1eae813109330767b871ebe86:-1448423061,9f0c6021e9e81310790f246a51f632e6:1545520135,7bc864a9bca8131040c23a93dd3788c4:-1044816314,1ba860a936a813104d33910878bebfd5:659814533,20882c6940a813104f76cb6be65ffd34:-1930521916,633824698ba8131072de334c12558f73:1211618350,85c62c25b6a813101f7f631d0816d52a:-1378718099,334520615fa81310290c5b40c9c1d24b:-1021321284,f3452061dca81310276a14fcb98af838:683309563,6115202125a813106ba240aeeb174d6b:-1907026886,551520217aa813108157ddc6b230045d:-202396039,dd15202163a8131084754b12e6043650:1502234808,5915202193a813106140a716b89e9644:-1088101641,9d152021cfa8131004c5dc65b289e237:616529206,dd1520217fa81310d36b202309537a1a:-1973807243,c1152021a0a81310bd97fd68bbd7e20d:-595477219,09152021f4a81310bbf11281ad3e1000:1109153628,4515ecedc66813101d008f2fe76c3ce3:-1481182821,4915eced376813106e5f78ad4506dfd5:223448026,f015eced27681310717c7630d7fe39c9:1928078873,3c15eced9e68131065b632f14c29a5bb:-662257576,b415ecedd36813106e71cb7b659518aa:1042373271,3015ecedbe6813102ef142bd0b6fe18a:-1547963178,e415ecedc2681310f449f8b363e8776a:156667669,a415eced336813105b3a5c615e97ea75:1420550297</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_incident_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="category" table="incident" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>category</element><name>incident</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:21:58</sys_created_on><sys_id>4e09439a90541310493a380252eb0ea8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>category</sys_name><sys_package display_value="Incident Updates" source="com.snc.incident.updates">4a9e435e90d81310493a380252eb0e13</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_incident_category</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-05-05 17:21:58</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>true</inactive><label>Cloud Management</label><language>en</language><name>incident</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2018-04-09 11:39:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>d225d7e60b951300682fa2c563673acb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>Cloud Management</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>true</inactive><label>Inquiry / Help</label><language>en</language><name>incident</name><sequence/><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2013-08-26 16:16:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>1862e4778f1301000e5d9cfde0f923bd</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 00:00:00</sys_updated_on><value>inquiry</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>true</inactive><label>Inquiry / Help</label><language>en</language><name>incident</name><sequence/><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2026-04-28 00:22:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>4bd5aa8593640310e2d7f1cfb903d660</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 00:00:00</sys_updated_on><value>inquiry</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>true</inactive><label>Password Reset</label><language>en</language><name>incident</name><sequence/><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-25 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>dc43b60d93ec0310e2d7f1cfb903d6c3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 00:00:00</sys_updated_on><value>password_reset</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Access &amp; Password</label><language>en</language><name>incident</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>38cf9acea56f4812bb0a32ca040aa616</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>access</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Cloud Services</label><language>en</language><name>incident</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>0323fe5cf8f34b8692400bb72690d01a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>cloud_services</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Collaboration Tools</label><language>en</language><name>incident</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>faadb9658239447ca57d71bf349383ba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>collaboration_tools</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Database</label><language>en</language><name>incident</name><sequence>4</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:00:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>f72c4fa20b911300682fa2c563673a14</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>database</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Hardware</label><language>en</language><name>incident</name><sequence>5</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:00:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>772c4fa20b911300682fa2c563673a14</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>hardware</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Inquiry</label><language>en</language><name>incident</name><sequence>6</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:00:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>f32c4fa20b911300682fa2c563673a14</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>inquiry</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Internal Applications</label><language>en</language><name>incident</name><sequence>7</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>703dead8e37c43d98f106ab5e8999b18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>internal_applications</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Network</label><language>en</language><name>incident</name><sequence>8</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:00:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>b72c4fa20b911300682fa2c563673a14</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>network</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Performance</label><language>en</language><name>incident</name><sequence>9</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>1d3b2b3499664d05bc94021d775e5e4c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>performance</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Security</label><language>en</language><name>incident</name><sequence>10</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>dff31b13b8ec43079c227e11a09216fa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>security</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Service Requests</label><language>en</language><name>incident</name><sequence>11</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>771503301c894bbb838e570687acb637</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>service_requests</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Software</label><language>en</language><name>incident</name><sequence>12</sequence><synonyms/><sys_created_by>system</sys_created_by><sys_created_on>2018-04-09 11:00:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>372c4fa20b911300682fa2c563673a14</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-22 00:00:00</sys_updated_on><value>software</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Vendor/System Outage</label><language>en</language><name>incident</name><sequence>13</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>2c51d07c9d5545e0893b931d3f133160</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 00:00:00</sys_updated_on><value>vendor_outage</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>EHR</label><language>en</language><name>incident</name><sequence>15</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:28:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a545ec2183a813100fa7c765eeaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:28:34</sys_updated_on><value>ehr</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1311363385</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>7f0fec6583e813100fa7c765eeaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774c0170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.Category</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>ed45ec2192a81310053fb3b252a8ef3f</update_guid>
+<update_guid_history>ed45ec2192a81310053fb3b252a8ef3f:-1311363385,e945ec2189a813101edb5b3d10f9581e:-1588568088</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0d15eced836813100fa7c765eeaad3dc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;facility&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;300&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Facility&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:43&lt;/sys_created_on&gt;&lt;sys_id&gt;0d15eced836813100fa7c765eeaad3dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Facility&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_0d15eced836813100fa7c765eeaad3dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:43&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;5&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0d15eced836813100fa7c765eeaad3dc"/&gt;&lt;fx_price action="delete_multiple" query="id=0d15eced836813100fa7c765eeaad3dc"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;0d15eced836813100fa7c765eeaad3dc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:44&lt;/sys_created_on&gt;&lt;sys_id&gt;c915eced836813100fa7c765eeaad3e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:44&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;0d15eced836813100fa7c765eeaad3dc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:44&lt;/sys_created_on&gt;&lt;sys_id&gt;8115eced836813100fa7c765eeaad3e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:44&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>998484423</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>a30fec6583e813100fa7c765eeaad3cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f8a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Facility</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4915eced6c68131025e453c783cf57ea</update_guid>
+<update_guid_history>4915eced6c68131025e453c783cf57ea:998484423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_a015eced836813100fa7c765eeaad37a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;requested_for&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;100&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Who needs access?&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:42&lt;/sys_created_on&gt;&lt;sys_id&gt;a015eced836813100fa7c765eeaad37a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Who needs access?&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_a015eced836813100fa7c765eeaad37a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:42&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;31&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a015eced836813100fa7c765eeaad37a"/&gt;&lt;fx_price action="delete_multiple" query="id=a015eced836813100fa7c765eeaad37a"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;a015eced836813100fa7c765eeaad37a&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:42&lt;/sys_created_on&gt;&lt;sys_id&gt;7815eced836813100fa7c765eeaad38c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:42&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;a015eced836813100fa7c765eeaad37a&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:42&lt;/sys_created_on&gt;&lt;sys_id&gt;3015eced836813100fa7c765eeaad38c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:42&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-612545113</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>a70fec6583e813100fa7c765eeaad3ce</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f3d30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Who needs access?</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>3c15eced06681310303a415cdf521292</update_guid>
+<update_guid_history>3c15eced06681310303a415cdf521292:-612545113</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_3015eced836813100fa7c765eeaad3c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="Request type">b415eced836813100fa7c765eeaad397</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:43</sys_created_on><sys_id>3015eced836813100fa7c765eeaad3c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Role change</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_3015eced836813100fa7c765eeaad3c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:43</sys_updated_on><text>Role change</text><value>role_change</value></question_choice><fx_price action="delete_multiple" query="id=3015eced836813100fa7c765eeaad3c4"/></record_update>]]></payload>
+<payload_hash>1604406278</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>ab0fec6583e813100fa7c765eeaad3d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f68d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Role change</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>3015ecedb86813108115c1b979baa5cd</update_guid>
+<update_guid_history>3015ecedb86813108115c1b979baa5cd:1604406278</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_5bb8e0a983a813100fa7c765eeaad393</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="EHR Access Request">9815eced836813100fa7c765eeaad321</catalog_item><catalog_variable>IO:7308ac2983a813100fa7c765eeaad355</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:44:02</sys_created_on><sys_id>5bb8e0a983a813100fa7c765eeaad393</sys_id><sys_mod_count>0</sys_mod_count><sys_name>last_day</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_5bb8e0a983a813100fa7c765eeaad393</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:44:02</sys_updated_on><table/><ui_policy display_value="Offboarding: swap EHR role for last day">d958e46983a813100fa7c765eeaad34e</ui_policy><value/><value_action>ignore</value_action><variable>last_day</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5bb8e0a983a813100fa7c765eeaad393"/></record_update>]]></payload>
+<payload_hash>227350532</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>af0fec6583e813100fa7c765eeaad3c9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d782e5820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>last_day</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>7fc864a9a1a813104bc0df7d8ac956c8</update_guid>
+<update_guid_history>7fc864a9a1a813104bc0df7d8ac956c8:227350532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_9515202183a813100fa7c765eeaad33f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref/><question display_value="EHR role">8515202183a813100fa7c765eeaad314</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:45</sys_created_on><sys_id>9515202183a813100fa7c765eeaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nurse / MA</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_9515202183a813100fa7c765eeaad33f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:45</sys_updated_on><text>Nurse / MA</text><value>nurse_ma</value></question_choice><fx_price action="delete_multiple" query="id=9515202183a813100fa7c765eeaad33f"/></record_update>]]></payload>
+<payload_hash>-885563994</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>af0fec6583e813100fa7c765eeaad3d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773fd070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Nurse / MA</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>9515202141a8131036c596a21d7e3648</update_guid>
+<update_guid_history>9515202141a8131036c596a21d7e3648:-885563994</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_6415eced836813100fa7c765eeaad34f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="EHR Access Request">9815eced836813100fa7c765eeaad321</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:41</sys_created_on><sys_id>6415eced836813100fa7c765eeaad34f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.EHR Access Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_6415eced836813100fa7c765eeaad34f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:41</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>-1667492430</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>b30fec6583e813100fa7c765eeaad3d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f0a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Service Catalog.EHR Access Request</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>2815eced9d6813100a019f2c18c4c856</update_guid>
+<update_guid_history>2815eced9d6813100a019f2c18c4c856:-1667492430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_3b95ac6183a813100fa7c765eeaad31a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_high_security_roles&gt;false&lt;/allow_high_security_roles&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=286000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;30000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Manager approval for EHR access requests, then a fulfillment task for EHR Support. Rejected requests are closed.&lt;/description&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;ehr_access_request_fulfillment&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"trigger.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"f58577bf-815c-4c97-918e-5ecd85081f4d":["record"],"c707f3e9-8c28-438c-9673-50e5d7d08df8":["ah_requested_item"],"509a40ae-e837-4320-a555-0809d182ca56":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.401560ad836813100fa7c765eeaad3b2}}","label":"EHR Support","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f58577bf-815c-4c97-918e-5ecd85081f4d":["approval_conditions"]}},{"name":"f58577bf-815c-4c97-918e-5ecd85081f4d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"930c3a1a-4f90-43ad-91ac-689e2e916b75":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;0eb6682583a813100fa7c765eeaad379&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;EHR Access Request Fulfillment&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;6ab6a82583a813100fa7c765eeaad305&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;EHR Access Request Fulfillment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_3b95ac6183a813100fa7c765eeaad31a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:55&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record&gt;b2a6e42583a813100fa7c765eeaad3b5&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_flow_catalog_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;catalog_item/&gt;&lt;name/&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;sys_class_name&gt;sys_flow_catalog_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6ab6a82583a813100fa7c765eeaad305&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:55&lt;/sys_updated_on&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_catalog_trigger&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT INf795ac6183a813100fa7c765eeaad3a8"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/id&gt;&lt;name&gt;EHR Access Request Fulfillment&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f795ac6183a813100fa7c765eeaad3a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:30:06&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f795ac6183a813100fa7c765eeaad3a8"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT IN54b560a183a813100fa7c765eeaad393,6cb560a183a813100fa7c765eeaad3d8"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/model&gt;&lt;model_id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3b95ac6183a813100fa7c765eeaad31a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:25&lt;/sys_created_on&gt;&lt;sys_id&gt;54b560a183a813100fa7c765eeaad393&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=54b560a183a813100fa7c765eeaad393"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/model&gt;&lt;model_id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3b95ac6183a813100fa7c765eeaad31a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:25&lt;/sys_created_on&gt;&lt;sys_id&gt;6cb560a183a813100fa7c765eeaad3d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6cb560a183a813100fa7c765eeaad3d8"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT IN54b5ec6183a813100fa7c765eeaad3bd"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:24&lt;/sys_created_on&gt;&lt;sys_id&gt;54b5ec6183a813100fa7c765eeaad3bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/61TXWvbMBT9K0FPG3hgJ2uz+G0UCoFuhabrSxlGlq4SMVlyJdltFvrfd29sJ2nnjUH3Jt0PnXPvObrfMcNLMCxnN42dXBr3OFlaljBtI3jLze22BkyKjdMCMN4drnSILL/fMbWChwYspvIPWcLUHTcN1Zdc/Fh711iJPerqBEIRhLaTY8XknQTFGxPfU+2y4mt6gc4rMCAiSJYrbgJg5Fs4vX3RIWi77gPPyZ/5KOfh73xeVryBxfeEVdxKHp3fHou8q26hqg2PcAg6L8GzPEvThLVEdLUNS9mhWl4Rvm9sQQwLTaK0/TR4lDrgY9u7Y0RstJEeLOqCFGru8YVI7+9epSJKWgyqXwzCagI+TxepmE8X8/k0nc3SVJ2VSigh5p+y9Dw7W2DduF1G6cZX3jmdF54iWHmyxt935oHLa2uOgQ2aspt1A6buThV/CvonwnxMqUOB79Sn3OFa9NsaFkV8wt6/5t+d2Y5Zux8pJe+NvfXCVe2YGYelkG96tIv/TzB7M8EpEexWd11H7dBMbEYi89JQT9iGTnoPAluK6PV6jY3Y5ExT2a9jDunZn7i4CagW1OQNEnv4PquNe7wZ5LzUdk+pTxonuDnceETksom0vx3jsuXYQd6OHjGe964oHhrq2P+jAavYT0QFQXhdx88i6hYOn/oX0FnFeikFAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT IN4686e02583a813100fa7c765eeaad341,5a2628e183a813100fa7c765eeaad336,bec5ac6183a813100fa7c765eeaad3ed"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;75d35c87-56ba-4cdb-b736-0087896714a2&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:04&lt;/sys_created_on&gt;&lt;sys_id&gt;4686e02583a813100fa7c765eeaad341&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;509a40ae-e837-4320-a555-0809d182ca56&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1UUWvbMBD+K0HPxthxGtq8DUKgD20hG33pipGlsyOQZVeS02Yh/30nWU7TdOtCWRmD+sl3uvvu+04futsSwcmMTIAn6UU6ZVmaZeMkGZ9P0mKaFemYZxQgJRFRtAas1MAazTFeU9m5xHZrtagq0LGGhw6MzYWFerfDEi5MK+nmNlRihq2E5BoUmd3dR6SlGkEtaDLbHh3ZTQu5pAVIbJw3rKtB2dHlHDFOJTx0LwfGxwrcDIx5QM+FS+KR45MmEYEnC4oDjiupNBCRmipObaM3ZGZ1hwkNlN8oudlXrISyvdIVyLb/q+mTET9w0iRxHSWgSBb2sQ/zsKthTY1gcNNa0ag+Y2khhx02sqvVdS/GbRlK2kl7sOXOIB60jryj03Mtv66ax+UwbyGU1xl4y4ZRuY+oxSstOgvGXQxI8OupadsKVeWtbtbCNyOVOq4kBnEpm0ecaUSlYsoc7xhXReMF5uc+fUu1cCKuEAabd158/tC5ub2MQDj3mr3g3F8ZlhqmRWu/IPAaAs1dFLxbnL1lBXbxfPMHmM/+NSxH43rTvrbssrc08NFlf/4+A39zg0fX/eBTSb9o/o2IYOEXueDgsw9w8Pk/cnDg9p9Z+E/GTcZvvmEHd+69ag5Na6mF712SZHzy2rVHp+/0LNSIaWHUo0Yncx4AFgIkN78QMZg2DMjXYcD+6f0A56bTxH+fL/BffIHvfwICeRkYPwgAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4686e02583a813100fa7c765eeaad341"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Catalog Task"&gt;af51fd0e73141300612c273ffff6a785&lt;/action_type&gt;&lt;action_type_parent display_value="Create Catalog Task"&gt;f597c41073081300612c273ffff6a767&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:32:27&lt;/sys_created_on&gt;&lt;sys_id&gt;5a2628e183a813100fa7c765eeaad336&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;c707f3e9-8c28-438c-9673-50e5d7d08df8&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1YS2/bRhD+KwJPLUCofEiirFtSV2gPTQA7cA9RQKzIobjI8pFdUoor+L9nllxSpEnRihwFNVyfzNmdndf37c7o416jvrbQSDA1A98AxzYnpm0YM9PyLMcO8G9GnPlc07WYRCB3hm5G1gzc4lvXtoTlUi48lIvPKPGpSBm5v+sseCFlPodYW3z8pGsp4XhCBlxb7B8tZfcpuIysgaH+B2lt9K60dqqzvcpHIpDWUNySJdyXjhm6Bl8ziH1AuwFhAnQtIrFPsoTf1xIOxH8fs4MgpHGGJ+I5IbC0/C8iXwX9Fw3NDakRAEbrQblWf7oqd6XYCxPqwfs0o0lcSgof1WLC8ih+V4Yksw4ByVnWzbpauD5WlVygWUhlkNJrFUJwGya7m8qvJY2LfKhFlniE1V8kyzhd5xkIWUlgEOFBbkTSlMYbN+XJlhbK6HI03jD8GAcs2aFRQTfxmHgyvjHmlIyXKL8uxHeEUxns33gMKqMVJnUKt1EsZMF4XkBCoJTTtMpN4ZX2UGTV/ZJLR8v8qBDdMpm4oVR7g/a3oKJ50BUhHHsIY8RowYnDlxxEBr5LM4gapNjvMTWbDfCx2lJseHjosuRsetQ1qthxgucHXeX36K/S74GQFEt4w5wiiTlMElmm7+WIbbU5gmVHhypX+ujSCeU55Hk5rEgwpa7PkzRVwRWkeC74bWcQQrMWUkSY8Ey6XRwos33A/zJnAWVs9MefNyPieSDESAGry4DBvedx4xZLEG8qYpwQVa0oYxpdt2IajljRQ1QWFTesCzwgpmUYP+UNeSk0ePZdPwwMr1X8gALzRQPjREiXirA2PMnTVW4Ytr9fVfheaYuVJkF9m6cpAmel6atSuViZGOZ0ZhB/bs/mpm0aRkAcz5lNAQjx7bVVbBf3wqX+ift7Xpf/pI9ntoMQoccZjMrY9JNLWB2wrArYU9OqFVQ23K2yodhsX4DNs2mHzYferI/UvyMXWLIZfaia6h9J8PKxfmH8bjf0T5A9GETK2moBY0do1qC62WWWakLPxDIq/7Ys+lX9ZO8q5X9K3zrOKgyvk4QBiQ/gnVwAvJOf8g6pHPcPMmrxVTxUT6CjMaXXN5hX3haPB5OruTkFD47c0FYP0OXr8KZsy26e2ZZ1RpYT4upc/9U12J5cjsV9fHqZXoAWPeML+jM0vjyK5jV0bQj1UE70QLgX/qjJxVkPIqnxK1AFkK3yqtXSGUPscMhCVtJNivK4Mez09WRI4crpKBj+kILvdRTmU3NqGZY5t0mPgjnpKFhXQwqzjkJP0/g6s3DmqMlyEY7e5t5nyOqm9GkwVuoV/+8aaBwAajVtSqPryqa60Gb/j5zNy4sKN8AXARNyyCBWGor0qB8L9YtdcTT2WO6DG2GMlKN67QNkjd8wZcyN04G7O14eUW8RSc4x01Uqu7gtr0Vc2gUHK7/8evaV+ukbqqANExwYAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=5a2628e183a813100fa7c765eeaad336"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Ask For Approval"&gt;f8f2e9920b10030085c083eb37673abd&lt;/action_type&gt;&lt;action_type_parent display_value="Ask For Approval"&gt;bae0a1120b10030085c083eb37673a92&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:51&lt;/sys_created_on&gt;&lt;sys_id&gt;bec5ac6183a813100fa7c765eeaad3ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;f58577bf-815c-4c97-918e-5ecd85081f4d&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1Y32/iOBD+V1CeKecQEgJvlaqeetq9ldruvpQqcpwJ+GScbOx0l0X87zdOHEihzXLdoqqre6nq8fz4ZvzNxOZu7fDEmTrjMB3CZDIksUuIR0joMxJ6EHvjYOxRRpy+I+kSULMAlhUJrh+oKI1gvdYFn8+hGBTwtQSlI65hudmgSsJVLujqi9VECVtwkRQgnendfd/JaYFONRTOdL23pVc5RILGINDwImPlEqTuXV2gj2MBN9bXDeL9DEwMXCfWe8SNELcMHtJ34LsGmQBGS6lQ0HeWVCZUZ8XKmeqiREEBNPkkxWqrseBS14kuQOT1f0v6XfEfGMgbGosUMEdmy7FdRrZUTZUyzuBTrnkma4mmsWhKmIlyKf+uczFFhpSWQreKXCr0B7kBb+DUWNObRfbtuol3yWWVpsUtMkbFdkU1nmhcalDmXEBAVZ0lzXMu51FeZA+8MkYoy8Fc4GKQiuwbxlR8LgeUGdwDLBUdXKL8ohJ/oQU3SXxEN2i8qZKPvpYmbp2GBRxVOdcJo5ZiBc/1Ofp8AItw07esjVknCdjuzGt3O9IqFiFbK6Ye8vS65jEkvat6/2WsvTUxe9VB9Y/G+8j4EL+lbLWMZO3aMtbtZqyV/DfKhuRtKGuxvTPO/oyuMAo8H/+MU4+4Q5eEEIQhmxDKwiDwR97uuDEeIqYCSUoV+t4R9xWn6g1WTM4bbh4BrjE8t+h61w26Z2FbvqomlOXq8ARcdYN3StaS32KVPuyfymk43Lfh2odS8s+S48i7MjwIhnEwIWFylqQkPhuFnn9GGZAzCFwf/CRgvuv9cicQt2sQJuETlEo5iPa1o9k4bIjWzssa49KEejS4j8B70ByXFvBzidjWqJZ7o/wU7RES8kb98fveP1gnLaA10P/JykJ2sDhacFUd7rNsbmm8FquPgN8Y/1Xj3yf1flodnPb+5/S74PTI7yQFPDHRWCYTbvCpFrPrOQjqXK7+vFuvlaaas8GIuH5AcGJ6Qeh6GCGlYzYOfABKEy8ebjb3hy3wK65e1iu7G04pQDX9ckRptm9Oa9dZKtstu1uTNbIdM3r9J+jbNczveaNnnYxIJzsGJCWWg+r2G3Q9c2qQM2c6c2QmYeb0Z47Rigw1KjFqILjtRiVbb+p1WVBr7raWO9uErlSlqdgCEiRXJX0kqRlv5a/5k82NDdC7QNR/3PLWV+fnNdv+7lPW9k+WsXlaNJnUdePtb45/gm/O6J02UMmj7cUYPwU4PE72xnhpV93/Cxq3xOiOFAAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=bec5ac6183a813100fa7c765eeaad3ed"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT IN6d76202583a813100fa7c765eeaad3cd,ca06e0e183a813100fa7c765eeaad333"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;f5b6682583a813100fa7c765eeaad318&lt;/block&gt;&lt;comment/&gt;&lt;connected_to&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:33:46&lt;/sys_created_on&gt;&lt;sys_id&gt;6d76202583a813100fa7c765eeaad3cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;75d35c87-56ba-4cdb-b736-0087896714a2&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;39b6682583a813100fa7c765eeaad313&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:31:54&lt;/sys_created_on&gt;&lt;sys_id&gt;ca06e0e183a813100fa7c765eeaad333&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1VTW/bMAz9K4POjuGPOHFyCzYUGLCtwFr0shUGLdGNMNnyLDlpFuS/j/JHGrQJ1g097mY9iuR7FB+8Z7q1dWvNrV4ZIx8qtvx27zFZOYy+90wKtmRFAEW44CGPo1kcBUGUTsN8FudhJGJAiJnHKiiRbnJdCWmlrrIO8NgGVOsCq7pu9AYFQUKaWsHu7mWEr6USDQ4samiohsWGLffPQnZXY6YgR0UFbmwjqwdKfy3XMfH9SPbdpw65rML1I9yMnXQjHK0w8Bg+WqwE0V8WoAx6rIRKgNXN7og0COK6Uk/AWlaWylGhNaq6/yrh0chf1CVKEpdSIKnl2AePx2wYXg/ztZYcr2tHtUcs5GrI4Vq1ZfWlV+TGjgW0yo5jJ6Q1VA9rR9/xGcgVN2u9/To2vJJVJ3UIKs1BHU9gaSB5a9G4J0KFJRXKSqhrGlPmnlV2ycSl9B8UHfxC6S01dbvmA3fEfZoW+FeEf+jgO2ikU/GZylByTzMHI3nW7SWVsw1JOHRjyX62jlAvcJCS9dOgC4Y3srYr6rPBgfXBG5Z6AUmRhEFyflGmszPrcLLP+32RpMl8nheTNEz4ZMoX88kiTHGSIBdpEqRhMRU+dMsNKjMWLB4O39sgiAVcNMNblX0LJ71iQC+cdH5oF+wT/cE+7pn/2j1BEPy3z6l9pMl6Gwzauub/7J57Z4G+g+k3SCCXhojcOuzj+OdwgR2tguSn0FY3P5yEJ+zwG1jkAASDBgAA&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3b95ac6183a813100fa7c765eeaad31a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:26&lt;/sys_created_on&gt;&lt;sys_id&gt;28b560a183a813100fa7c765eeaad3f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:30:26&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3b95ac6183a813100fa7c765eeaad31a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:30:25&lt;/sys_created_on&gt;&lt;sys_id&gt;2cb560a183a813100fa7c765eeaad3d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:30:25&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_high_security_roles&gt;false&lt;/allow_high_security_roles&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;30000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Manager approval for EHR access requests, then a fulfillment task for EHR Support. Rejected requests are closed.&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;ehr_access_request_fulfillment&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"trigger.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"f58577bf-815c-4c97-918e-5ecd85081f4d":["record"],"c707f3e9-8c28-438c-9673-50e5d7d08df8":["ah_requested_item"],"509a40ae-e837-4320-a555-0809d182ca56":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.401560ad836813100fa7c765eeaad3b2}}","label":"EHR Support","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f58577bf-815c-4c97-918e-5ecd85081f4d":["approval_conditions"]}},{"name":"f58577bf-815c-4c97-918e-5ecd85081f4d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"930c3a1a-4f90-43ad-91ac-689e2e916b75":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;EHR Access Request Fulfillment&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="EHR Access Request Fulfillment"&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0eb6682583a813100fa7c765eeaad379&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:53&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=0eb6682583a813100fa7c765eeaad379^sys_idNOT IN0ab6682583a813100fa7c765eeaad37c"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0eb6682583a813100fa7c765eeaad379&lt;/id&gt;&lt;name&gt;EHR Access Request Fulfillment&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;0ab6682583a813100fa7c765eeaad37c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:53&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0ab6682583a813100fa7c765eeaad37c"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=0eb6682583a813100fa7c765eeaad379^sys_idNOT IN06b6682583a813100fa7c765eeaad3ae,0eb6682583a813100fa7c765eeaad37e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/model&gt;&lt;model_id&gt;0eb6682583a813100fa7c765eeaad379&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_0eb6682583a813100fa7c765eeaad379&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;06b6682583a813100fa7c765eeaad3ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=06b6682583a813100fa7c765eeaad3ae"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/model&gt;&lt;model_id&gt;0eb6682583a813100fa7c765eeaad379&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_0eb6682583a813100fa7c765eeaad379&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;0eb6682583a813100fa7c765eeaad37e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0eb6682583a813100fa7c765eeaad37e"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0eb6682583a813100fa7c765eeaad379^sys_idNOT IN16b6682583a813100fa7c765eeaad3d6"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;16b6682583a813100fa7c765eeaad3d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/61TXWvbMBT9K0FPG3hgJ2uz+G0UCoFuhabrSxlGlq4SMVlyJdltFvrfd29sJ2nnjUH3Jt0PnXPvObrfMcNLMCxnN42dXBr3OFlaljBtI3jLze22BkyKjdMCMN4drnSILL/fMbWChwYspvIPWcLUHTcN1Zdc/Fh711iJPerqBEIRhLaTY8XknQTFGxPfU+2y4mt6gc4rMCAiSJYrbgJg5Fs4vX3RIWi77gPPyZ/5KOfh73xeVryBxfeEVdxKHp3fHou8q26hqg2PcAg6L8GzPEvThLVEdLUNS9mhWl4Rvm9sQQwLTaK0/TR4lDrgY9u7Y0RstJEeLOqCFGru8YVI7+9epSJKWgyqXwzCagI+TxepmE8X8/k0nc3SVJ2VSigh5p+y9Dw7W2DduF1G6cZX3jmdF54iWHmyxt935oHLa2uOgQ2aspt1A6buThV/CvonwnxMqUOB79Sn3OFa9NsaFkV8wt6/5t+d2Y5Zux8pJe+NvfXCVe2YGYelkG96tIv/TzB7M8EpEexWd11H7dBMbEYi89JQT9iGTnoPAluK6PV6jY3Y5ExT2a9jDunZn7i4CagW1OQNEnv4PquNe7wZ5LzUdk+pTxonuDnceETksom0vx3jsuXYQd6OHjGe964oHhrq2P+jAavYT0QFQXhdx88i6hYOn/oX0FnFeikFAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=0eb6682583a813100fa7c765eeaad379^sys_idNOT IN1ab6682583a813100fa7c765eeaad3d3,9eb6682583a813100fa7c765eeaad3d4,c6b6682583a813100fa7c765eeaad3d1"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Catalog Task"&gt;af51fd0e73141300612c273ffff6a785&lt;/action_type&gt;&lt;action_type_parent display_value="Create Catalog Task"&gt;f597c41073081300612c273ffff6a767&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;af51fd0e73141300612c273ffff6a785&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;1ab6682583a813100fa7c765eeaad3d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;c707f3e9-8c28-438c-9673-50e5d7d08df8&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1YW2/bNhT+K4aeNkDwdLEtx29tMmMDthaIi+yhLgRKomyi1KUkFTcz8t93KFK2ZCmK3caBi85P1jk81Hcu3yGPPm4NEhkzA8VjO44s7Ln2yHYta2I7oeO5MfwmyJtODdNIUYLlyrUvUECxXz6bxj2ihZTzEOT8M0giwnOKHu5ainBNaMRwasw+fjKNHDHYQWBmzLYHqmMhURRgCks/SECDdwrQEzjFQy7FLdlfXXtkLJK4LNPAXwVOIwyAYkQ5No0EpRESGXvYSRhG0fuUgkCwAp7XJBWwIWyzxjRX/xL0lZN/AcDUkgYxBl9DrHS7R19HTonjGyTQArYMRcH00nCdkRBzFaUIx6ig4rouUwve54JkqTIpHdbWGS2S9J2Kj7HboJ0orbh5KpEFB6w4l4GRruo4xIt1trmtnJmTtIyhVtIsRHT3hIRgJCiEhL01MMUJbOQnKM9JuvJzlt2T0hggJ8MVhYdhTLMNvJSTVTpEofRvCHlAwznIb0rxHWJEOvs3bAPG8BYqbUrYIOYy+5AgUBAOUkbyKjYlKuPRNPgDv6aI832MIDn+l0JCVxHTTvsqvNKk3OgNILrH2r9HU7PKc/tKGFmNamX4S4G5wJFPBE5qzNpuIVirFWZDvaRc8PjYptrJHDsCYMWx2wre4E8Frwe55tq+zptUu63JNdPsfqYpYu2Jplf0Ms11mkyDOgCgFcQu0rVcfHUKvgS34gVGLFzPCaYyxWmRBIoNr8K5DPLjRyzLc+10SbmXp5br9VbupFGgfJ0xIR0pN5R52bNrXtCYUDr4/Y/bAQohi3yg67nNr961pzHvCPwV8xYS/eCmgb7fN80/DglPVwfkW1RCzTznxDPuGOrZjmVd7jn3oxxgZziP+osubBRWLBsIrzEFcADI0tEVy4p8WViWG22XFUuWxmxpSGosijyHolwa5lIZl5qRZY8nFoqm7mRqu7ZlxcgLvckYY4QiN3DK5eCwT6Ij13ecgBeJ8cQz+fkkVZ1hXqWoI2vVfRcn4LfAvsriwZ1XKwd3Wql7gnuGnjAZt3rC/kLZ1RqugRw0Ww0+qCUX0CbULeSH7xIkzQvBh80B6ZnOEfcWZeA0anCDiKj1DbtNU30PP40YR2CoiPGPQtCCpEkRZBnFKD1kA4D6bV6OAjsmjM7AhNHlHo06L93zn1b+pGfnM9VX+0Kya7mh6mCH89zV1B7jED9xaDgddJEH1ht137z9xvvmEfDp4alQdeDmwPeUe6cPfeMzkKtj6gOcfVPfgZcXcM58/8ynvmK9zsQHA8jG5+X7zzfueUFv+da++1VVea9xNm6wVh/zPDSTZeJnZRr9FG/MYNRncOW1DKyozyAKWwbTsT12LMeeuqjDwB61DJyrPoNJy6DjjvxzRuHEW/jzBVf1y6qB3NUqrqcYq+GcFnwdFOFnLA465UJqBm8rlW6Wk//n9O++axDux3B0QRT3GYHqwGVM9Vdg83yNMisYBLUKQLtCVQME1Sbe4/vlV9CQNKRFhP0EwkMYvHmnxqL2XVuGqwYMM3/D1NtfvDF/+g8x70YJOhoAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1ab6682583a813100fa7c765eeaad3d3"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;75d35c87-56ba-4cdb-b736-0087896714a2&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;9eb6682583a813100fa7c765eeaad3d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;509a40ae-e837-4320-a555-0809d182ca56&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+VVTW/iMBT8K8hnFCWEopbbqgipUreV6IpLt4oc+wUsOU5qO7Qs4r/vS+yECKouPfSAlhPvy555mUmed0RwMiVj4GF0E01YHMXxKAxH1+MoncRpNOIxBYjIkCiaA3ZqYIXmGG+orOrEbme1WK1ABxpeKzA2ERby/R5buDClpNul78QMWwvJNSgyfX4ZkpJqPNSCJtPdUelcVJKmILF10cI6hmm3ZR3zglU5KATXJu/95MxXBnczrOBQDScKhwTeLSgOCCSj0sCQ5FRxagu9JVOrK0xooPxRyW3XsRbKOqJrkKX7l9N3I/4ghnFYT2SAHJlfRxcmflUunc2opU94B7OV7jZXCAbGbYdDRitpb/s51/BYWlEoN2JpKtvpQla5enC7Id0BvSdTGQQBZc245uAIZk/r4m3RgpwL1SzHk5UFo7KLqEUZpJWt4ewISGi2ndOyFGqVlLrYiGYYoeTBSmIQZLJ4wzuNWKmAshp3gPulwRzzsya9pFrUJH7iMTi8HxKzNbeSGnOggjtMXqsaiSPmKSTNFpoVJI0m6mGmRWl/4FUb8MD3Q++A9OozrbGbg7R6Zx5cYFiC8m+kfyr8hTMG8MGdq3/NBmdAa23wq3nkH0P1TjjJ3fdnBw+u4H1w9Q0+uL4kH3hCF2+Ef8k/HH36qu1pqlG86UvfUgu/qzCM+fhU+0fVryn/DFSt8ucCJDcfwGxlDznCspA42EfS98XB0he7z8A36D+ahM3vglzw33wNXv4CkdMmphEJAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=9eb6682583a813100fa7c765eeaad3d4"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Ask For Approval"&gt;f8f2e9920b10030085c083eb37673abd&lt;/action_type&gt;&lt;action_type_parent display_value="Ask For Approval"&gt;bae0a1120b10030085c083eb37673a92&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f8f2e9920b10030085c083eb37673abd&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;c6b6682583a813100fa7c765eeaad3d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;f58577bf-815c-4c97-918e-5ecd85081f4d&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1YXW/aPBT+K8jXlNchJATuqqFOnd53k9puN6WKjHMCnkySxU43XsR/30nskAxWBhu9qLobhM+H/ZzD8/iD+zURERmTYRD3YTTq05lDqUtp4HEauDBzh/7QZZySLknYEjAyB57mEY4fmSxKw3qtczGfQ97L4UsBSodCw3KzwZBIqEyy1ScbiRa+EDLKISHj+4cuyViOk2rIyXi94zoWlWQzkBh6U8PahalXWTmOUl4sIUFwtfFfmzmxns71BD2YVMKhXQLfNCQRII6YSQVdsmRJxHSar8hY5wUacmDRh0SuthELkWhT5wJkZr4t2Tcl/kcIbr/MiAFL5LYb22FoO2XM8YRpdotrcF3k28algoMyzYkgZoXUb9o2E/Ah0yJNTIpmM1lnp7JYJu9Na8h2gtYPUygEAVlZcVmDKTC+XaRfb2qQVyKpemOLlSlncjtiGlkwK3QJZ01AQtXsJcsykczDLE8fRZWMUJa9ucRBL5bpV1xTiXnSY7zE3cP+st4V2ieV+RPLRVnEfzgNJm+6RK3UG8mUakrBHoZfihKJKcyWEFZdMC0o83guMn2JqzyCxbzpWu7P+EGW8YZUZrqG+oqHyPmK7/tsvzFqgKhzbfyncf8IVDX37yysHZSW+dUwrHw/Er9K67w3Dst75zDvraUhvuHJQd4H9AXx3hb44on/K87DwHc9/BjGLnX6Dg3ADwI+oowHvu8N3IZNiABrYBKZzhTO3bD/DBv8ETBqkl9aHJ2bGseTAC3xFf4wyXyH9Le10RK+fyLhj9npHf81Ub4Qdzv9Npa9jj+PNsrlPiYC99rrklF+f+aPaBBdRDGdXQwC17tgHOgF+I4HXuRzz3GfQU/UObRbR8FP6BoLkO17VO3Yl1XLc5q8jkC1J68rC+spuFZc1fBnp0qVv3OqPIfIAkpfkspe04WKH6QdtA6Xz2mRJwe0EC6EqjjypCZaEadp4wiQtTbeGZS70tgF/zvKcP8q4zUpY+AdJF3rEr/lN0+TSJSIVUsfZrcGdZms3t6v10ozLXhvQB3Pp7ivu37guLhCzIZ86HsAjEXurL/ZPOwL6U+mOk1xRxS/fc0XEtSvmmH11tz/bFJbc82t0Tqt7gbnf9+/MNm9lpcOP8i6eNSwLCqwQUy3H/jrKTGwp2Q8JUmawJR0p6SMCkuaVWaMQHBbR2Vbb8y4yJlNd1rDJjdiK1VFKr6ACDlaWX+whJUorP0c/6od0ZFah5MCOhPTkv0m1c+sGqfpitg7925tQDXTP3eiff55z3D+Df7K8ByPqnD77MDDDffDM2rz4TtTr8sbdxYAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c6b6682583a813100fa7c765eeaad3d1"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0eb6682583a813100fa7c765eeaad379^sys_idNOT IN0ab6682583a813100fa7c765eeaad3cd,8ab6682583a813100fa7c765eeaad3cf"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;39b6682583a813100fa7c765eeaad313&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;0ab6682583a813100fa7c765eeaad3cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1VXW/aMBT9K5OfQ5QPAoE3RFVpUrdKa9WXrYpubKdYc+wsdqAM8d93nQ9ALdWK1se94XN9r885uUfsiG5s1VhzrxfGiCdF5t8fPSKUw/D3jghG5qQIoAhnNKRxNImjIIjScZhP4jyMWAwcYuIRBSXHm1QrJqzQKmsBj6xBNq6wqKparzlDiAlTSdg+vK7QlZCs5j2LCmqcYXlN5rsXpfeykpBziVeXA61PNy3yNl+7rRxubC3UU3++6afcDaCumWMVBh7hz5YrhuznBUjDPVKCYmB1vT0gNQd2q+QRWAllcRwOWnFZdb9KeDbiNz4dJYlrKTiKpbwrHo5Z710HF1dgAUk11DZ1f5WutKDcdDYxXkAj7fIU6y7cVk5012Ihl0O3lk2pvnbekMOA4VMh0hgkwSun2YnoFRV3K735NrC8Fqr1py9KTUEeTmDRxbyxjs+OcMlLHJSVUFXobeZWQbTNyKX0nyQe/ELqDT7q9tMH6oj7aDH414hftfAD1MKp+IJjsLmjmYMRNGt3GcehTZzsPWK2ZinBmKNIdDf71TiKneReXNb541poLSq7wJfXvNex9/pozCApkjBIzi/heHJm1U5SsdsVSZpMp3kxSsOEjsZ0Nh3NwpSPEk5ZmgRpWIyZD21EQGbGguX7/Y8mCGIGb0bqo8Zelsd3WPEqj+ftuSSE0V9C6L77xRkMguB/CP85hMJkXXR6be3jH5jBRxek7s2D11QYpHbvsM/Dv5grbHHNBD2FNrr+6UQdsf0fr9q6gQ8HAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;f5b6682583a813100fa7c765eeaad318&lt;/block&gt;&lt;comment/&gt;&lt;connected_to&gt;930c3a1a-4f90-43ad-91ac-689e2e916b75&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="EHR Access Request Fulfillment"&gt;0eb6682583a813100fa7c765eeaad379&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;8ab6682583a813100fa7c765eeaad3cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;75d35c87-56ba-4cdb-b736-0087896714a2&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_0eb6682583a813100fa7c765eeaad379&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;06b6682583a813100fa7c765eeaad3a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_0eb6682583a813100fa7c765eeaad379&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;0eb6682583a813100fa7c765eeaad3c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:54&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0eb6682583a813100fa7c765eeaad379"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/sys_id&gt;&lt;latest_snapshot&gt;0eb6682583a813100fa7c765eeaad379&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=3b95ac6183a813100fa7c765eeaad31a^sys_idNOT IN6ab6a82583a813100fa7c765eeaad306"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;3b95ac6183a813100fa7c765eeaad31a&lt;/plan_id&gt;&lt;snapshot&gt;0eb6682583a813100fa7c765eeaad379&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:34:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6ab6a82583a813100fa7c765eeaad306&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:34:55&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;6ab6a82583a813100fa7c765eeaad305&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=3b95ac6183a813100fa7c765eeaad31a"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2094160115</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>b70fec6583e813100fa7c765eeaad3d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d77a90b70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table/>
+<target_name>EHR Access Request Fulfillment</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>62b6a82560a81310129bbb6d23a25349</update_guid>
+<update_guid_history>62b6a82560a81310129bbb6d23a25349:-2094160115,bdb66825caa8131096326c775f7d7332:-1243055665,d1b6282568a81310780fa0aeef83eaa1:-183306667,9496242576a81310c5b296c1ddfa9c83:656682693,9486a0252fa81310610ab10e0bb52d72:-975655254,3b662025c4a813100f08a5abb23e6843:-1598513862,813668e194a81310a8e4af6d47b06e82:-1593009830,a526e4e1bda81310129fdeb95cf478b7:-1178105713,a41624e1a4a81310f2faa7d133e864e5:891481356,bc06a0e188a8131010d34351f92f04e6:-1945799165,55d528a142a813108eeeeefca40eeacc:-1261337620,feb5e0a112a81310b676d0d320fd3f39:-2000836248,f395ac6143a813107a7a8c39217475b0:-1388846580</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_8515eced836813100fa7c765eeaad3d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="Request type">b415eced836813100fa7c765eeaad397</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:43</sys_created_on><sys_id>8515eced836813100fa7c765eeaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Offboarding</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_8515eced836813100fa7c765eeaad3d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:43</sys_updated_on><text>Offboarding</text><value>offboarding</value></question_choice><fx_price action="delete_multiple" query="id=8515eced836813100fa7c765eeaad3d0"/></record_update>]]></payload>
+<payload_hash>-1645513705</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>e30fec6583e813100fa7c765eeaad3d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f7540000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Offboarding</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>8515eced65681310a6f13256dd444dd9</update_guid>
+<update_guid_history>8515eced65681310a6f13256dd444dd9:-1645513705</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_b7886c6983a813100fa7c765eeaad3db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="EHR Access Request">9815eced836813100fa7c765eeaad321</catalog_item><catalog_variable>IO:8515202183a813100fa7c765eeaad314</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:43:27</sys_created_on><sys_id>b7886c6983a813100fa7c765eeaad3db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ehr_role</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_b7886c6983a813100fa7c765eeaad3db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:43:27</sys_updated_on><table/><ui_policy display_value="Offboarding: swap EHR role for last day">d958e46983a813100fa7c765eeaad34e</ui_policy><value/><value_action>ignore</value_action><variable>ehr_role</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b7886c6983a813100fa7c765eeaad3db"/></record_update>]]></payload>
+<payload_hash>1138617102</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>e70fec6583e813100fa7c765eeaad3ca</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d7825ca00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>ehr_role</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>9fa860a913a8131080d750a9ed9056d9</update_guid>
+<update_guid_history>9fa860a913a8131080d750a9ed9056d9:1138617102</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_b015eced836813100fa7c765eeaad3b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Request type">b415eced836813100fa7c765eeaad397</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:43</sys_created_on><sys_id>b015eced836813100fa7c765eeaad3b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New account</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_b015eced836813100fa7c765eeaad3b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:43</sys_updated_on><text>New account</text><value>new_account</value></question_choice><fx_price action="delete_multiple" query="id=b015eced836813100fa7c765eeaad3b5"/></record_update>]]></payload>
+<payload_hash>439327164</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>e70fec6583e813100fa7c765eeaad3d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f5d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>New account</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>7015ecedc3681310783b6414dd7654c0</update_guid>
+<update_guid_history>7015ecedc3681310783b6414dd7654c0:439327164</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_2915202183a813100fa7c765eeaad364</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;justification&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;500&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Business justification&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:45&lt;/sys_created_on&gt;&lt;sys_id&gt;2915202183a813100fa7c765eeaad364&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Business justification&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_2915202183a813100fa7c765eeaad364&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:45&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;2&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2915202183a813100fa7c765eeaad364"/&gt;&lt;fx_price action="delete_multiple" query="id=2915202183a813100fa7c765eeaad364"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;2915202183a813100fa7c765eeaad364&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:45&lt;/sys_created_on&gt;&lt;sys_id&gt;e515202183a813100fa7c765eeaad36d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:45&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;2915202183a813100fa7c765eeaad364&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:45&lt;/sys_created_on&gt;&lt;sys_id&gt;ad15202183a813100fa7c765eeaad36c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:45&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1363610807</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>eb0fec6583e813100fa7c765eeaad3cc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774004b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Business justification</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>6915202169a81310f7580139da442f72</update_guid>
+<update_guid_history>6915202169a81310f7580139da442f72:-1363610807</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_b415eced836813100fa7c765eeaad397</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="EHR Access Request"&gt;9815eced836813100fa7c765eeaad321&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;disable_initial_slot_fill&gt;false&lt;/disable_initial_slot_fill&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;hide_on_grid&gt;false&lt;/hide_on_grid&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_dependent_question/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_source/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;lux_widget/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;access_type&lt;/name&gt;&lt;no_auto_populate_also_request_for&gt;false&lt;/no_auto_populate_also_request_for&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order&gt;200&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Request type&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b415eced836813100fa7c765eeaad397&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request type&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_b415eced836813100fa7c765eeaad397&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:43&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;5&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b415eced836813100fa7c765eeaad397"/&gt;&lt;fx_price action="delete_multiple" query="id=b415eced836813100fa7c765eeaad397"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;b415eced836813100fa7c765eeaad397&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:43&lt;/sys_created_on&gt;&lt;sys_id&gt;3c15eced836813100fa7c765eeaad3ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:43&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;b415eced836813100fa7c765eeaad397&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:27:43&lt;/sys_created_on&gt;&lt;sys_id&gt;f015eced836813100fa7c765eeaad3ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:27:43&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1841313330</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>ef0fec6583e813100fa7c765eeaad3ce</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f4f50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Request type</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>7c15ecedc16813109bb4ebd6f1da0bb0</update_guid>
+<update_guid_history>7c15ecedc16813109bb4ebd6f1da0bb0:1841313330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_ac15eced836813100fa7c765eeaad358</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="EHR Access Request">9815eced836813100fa7c765eeaad321</sc_cat_item><sc_category display_value="Application and Account Access">22555319db0150104327198d1396195c</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-14 00:27:42</sys_created_on><sys_id>ac15eced836813100fa7c765eeaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application and Account Access.EHR Access Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_ac15eced836813100fa7c765eeaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-14 00:27:42</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-1732214926</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:19</sys_created_on>
+<sys_id>fb0fec6583e813100fa7c765eeaad3d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d773f10a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:19</sys_updated_on>
+<table/>
+<target_name>Application and Account Access.EHR Access Request</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>ec15ecedbc6813103d6ddd3219a9905e</update_guid>
+<update_guid_history>ec15ecedbc6813103d6ddd3219a9905e:-1732214926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_7b45aced836813100fa7c765eeaad325</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;category=ehr&lt;item display_value="EHR" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="ehr"/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EHR outage: raise urgency for clinic-wid&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // If an EHR incident affects the whole clinic (Impact = High),
+    // force Urgency to High so it lands as a P1 and the SLA starts.
+    if (current.impact == 1 &amp;&amp; current.urgency != 1) {
+        current.urgency = 1;
+        current.work_notes = 'Clinic-wide EHR impact: urgency set to High automatically. ' +
+            'If this is a network or server issue, escalate to the managed service provider.';
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-14 00:28:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7b45aced836813100fa7c765eeaad325&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EHR outage: raise urgency for clinic-wid&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7b45aced836813100fa7c765eeaad325&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-14 00:28:44&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7b45aced836813100fa7c765eeaad325"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1499305966</payload_hash>
+<remote_update_set display_value="EHR ITSM Lab">2f0fec6583e813100fa7c765eeaad3c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-14 01:11:20</sys_created_on>
+<sys_id>ff0fec6583e813100fa7c765eeaad3d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1d774e6900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-14 01:11:20</sys_updated_on>
+<table>incident</table>
+<target_name>EHR outage: raise urgency for clinic-wid</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>7745acedf0681310a38f932030ab722e</update_guid>
+<update_guid_history>7745acedf0681310a38f932030ab722e:1499305966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
